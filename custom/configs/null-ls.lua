@@ -10,6 +10,7 @@ local sources = {
   formatting.stylua,
   formatting.eslint,
   formatting.clang_format,
+  formatting.csharpier,
 
   lint.shellcheck,
 }

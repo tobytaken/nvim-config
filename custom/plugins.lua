@@ -27,6 +27,8 @@ local plugins = {
         "json",
         "svelte",
         "c",
+        "cmake",
+        "c_sharp",
         "rust"
       },
     },
