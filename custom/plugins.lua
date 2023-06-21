@@ -11,6 +11,8 @@ local plugins = {
     end,
   },
 
+  { "andweeb/presence.nvim", lazy = false },
+
   -- this opts will extend the default opts
   {
     "nvim-treesitter/nvim-treesitter",
@@ -80,7 +82,7 @@ local plugins = {
           auto_trigger = true,
           debounce = 75,
           keymap = {
-          -- accept = "<M-l>",
+            -- accept = "<M-l>",
             accept = "<Tab>",
             accept_word = false,
             accept_line = false,

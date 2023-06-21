@@ -11,7 +11,7 @@ local sources = {
   formatting.eslint,
   formatting.clang_format,
   formatting.csharpier,
-
+  formatting.rustfmt,
   lint.shellcheck,
 }
 
